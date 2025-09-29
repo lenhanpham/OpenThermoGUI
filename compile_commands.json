@@ -1,0 +1,68 @@
+[
+{
+  "directory": "/mnt/e/CodeScript/OpenThermo",
+  "command": "clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/mnt/e/CodeScript/OpenThermo/OpenThermo_autogen/include -I/mnt/e/CodeScript/OpenThermo/src -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui  -Wall -Wextra -std=gnu++17 -fPIC -o CMakeFiles/OpenThermo.dir/OpenThermo_autogen/mocs_compilation.cpp.o -c /mnt/e/CodeScript/OpenThermo/OpenThermo_autogen/mocs_compilation.cpp",
+  "file": "/mnt/e/CodeScript/OpenThermo/OpenThermo_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/OpenThermo.dir/OpenThermo_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/mnt/e/CodeScript/OpenThermo",
+  "command": "clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/mnt/e/CodeScript/OpenThermo/OpenThermo_autogen/include -I/mnt/e/CodeScript/OpenThermo/src -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui  -Wall -Wextra -std=gnu++17 -fPIC -o CMakeFiles/OpenThermo.dir/src/main.cpp.o -c /mnt/e/CodeScript/OpenThermo/src/main.cpp",
+  "file": "/mnt/e/CodeScript/OpenThermo/src/main.cpp",
+  "output": "CMakeFiles/OpenThermo.dir/src/main.cpp.o"
+},
+{
+  "directory": "/mnt/e/CodeScript/OpenThermo",
+  "command": "clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/mnt/e/CodeScript/OpenThermo/OpenThermo_autogen/include -I/mnt/e/CodeScript/OpenThermo/src -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui  -Wall -Wextra -std=gnu++17 -fPIC -o CMakeFiles/OpenThermo.dir/src/atommass.cpp.o -c /mnt/e/CodeScript/OpenThermo/src/atommass.cpp",
+  "file": "/mnt/e/CodeScript/OpenThermo/src/atommass.cpp",
+  "output": "CMakeFiles/OpenThermo.dir/src/atommass.cpp.o"
+},
+{
+  "directory": "/mnt/e/CodeScript/OpenThermo",
+  "command": "clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/mnt/e/CodeScript/OpenThermo/OpenThermo_autogen/include -I/mnt/e/CodeScript/OpenThermo/src -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui  -Wall -Wextra -std=gnu++17 -fPIC -o CMakeFiles/OpenThermo.dir/src/calc.cpp.o -c /mnt/e/CodeScript/OpenThermo/src/calc.cpp",
+  "file": "/mnt/e/CodeScript/OpenThermo/src/calc.cpp",
+  "output": "CMakeFiles/OpenThermo.dir/src/calc.cpp.o"
+},
+{
+  "directory": "/mnt/e/CodeScript/OpenThermo",
+  "command": "clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/mnt/e/CodeScript/OpenThermo/OpenThermo_autogen/include -I/mnt/e/CodeScript/OpenThermo/src -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui  -Wall -Wextra -std=gnu++17 -fPIC -o CMakeFiles/OpenThermo.dir/src/loadfile.cpp.o -c /mnt/e/CodeScript/OpenThermo/src/loadfile.cpp",
+  "file": "/mnt/e/CodeScript/OpenThermo/src/loadfile.cpp",
+  "output": "CMakeFiles/OpenThermo.dir/src/loadfile.cpp.o"
+},
+{
+  "directory": "/mnt/e/CodeScript/OpenThermo",
+  "command": "clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/mnt/e/CodeScript/OpenThermo/OpenThermo_autogen/include -I/mnt/e/CodeScript/OpenThermo/src -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui  -Wall -Wextra -std=gnu++17 -fPIC -o CMakeFiles/OpenThermo.dir/src/symmetry.cpp.o -c /mnt/e/CodeScript/OpenThermo/src/symmetry.cpp",
+  "file": "/mnt/e/CodeScript/OpenThermo/src/symmetry.cpp",
+  "output": "CMakeFiles/OpenThermo.dir/src/symmetry.cpp.o"
+},
+{
+  "directory": "/mnt/e/CodeScript/OpenThermo",
+  "command": "clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/mnt/e/CodeScript/OpenThermo/OpenThermo_autogen/include -I/mnt/e/CodeScript/OpenThermo/src -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui  -Wall -Wextra -std=gnu++17 -fPIC -o CMakeFiles/OpenThermo.dir/src/util.cpp.o -c /mnt/e/CodeScript/OpenThermo/src/util.cpp",
+  "file": "/mnt/e/CodeScript/OpenThermo/src/util.cpp",
+  "output": "CMakeFiles/OpenThermo.dir/src/util.cpp.o"
+},
+{
+  "directory": "/mnt/e/CodeScript/OpenThermo",
+  "command": "clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/mnt/e/CodeScript/OpenThermo/OpenThermo_autogen/include -I/mnt/e/CodeScript/OpenThermo/src -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui  -Wall -Wextra -std=gnu++17 -fPIC -o CMakeFiles/OpenThermo.dir/src/help_utils.cpp.o -c /mnt/e/CodeScript/OpenThermo/src/help_utils.cpp",
+  "file": "/mnt/e/CodeScript/OpenThermo/src/help_utils.cpp",
+  "output": "CMakeFiles/OpenThermo.dir/src/help_utils.cpp.o"
+},
+{
+  "directory": "/mnt/e/CodeScript/OpenThermo",
+  "command": "clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/mnt/e/CodeScript/OpenThermo/OpenThermo_autogen/include -I/mnt/e/CodeScript/OpenThermo/src -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui  -Wall -Wextra -std=gnu++17 -fPIC -o CMakeFiles/OpenThermo.dir/src/gui/ui.cpp.o -c /mnt/e/CodeScript/OpenThermo/src/gui/ui.cpp",
+  "file": "/mnt/e/CodeScript/OpenThermo/src/gui/ui.cpp",
+  "output": "CMakeFiles/OpenThermo.dir/src/gui/ui.cpp.o"
+},
+{
+  "directory": "/mnt/e/CodeScript/OpenThermo",
+  "command": "clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/mnt/e/CodeScript/OpenThermo/OpenThermo_autogen/include -I/mnt/e/CodeScript/OpenThermo/src -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui  -Wall -Wextra -std=gnu++17 -fPIC -o CMakeFiles/OpenThermo.dir/src/gui/settingsdialog.cpp.o -c /mnt/e/CodeScript/OpenThermo/src/gui/settingsdialog.cpp",
+  "file": "/mnt/e/CodeScript/OpenThermo/src/gui/settingsdialog.cpp",
+  "output": "CMakeFiles/OpenThermo.dir/src/gui/settingsdialog.cpp.o"
+},
+{
+  "directory": "/mnt/e/CodeScript/OpenThermo",
+  "command": "clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/mnt/e/CodeScript/OpenThermo/OpenThermo_autogen/include -I/mnt/e/CodeScript/OpenThermo/src -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui  -Wall -Wextra -std=gnu++17 -fPIC -o CMakeFiles/OpenThermo.dir/qrc_openthermo.cpp.o -c /mnt/e/CodeScript/OpenThermo/qrc_openthermo.cpp",
+  "file": "/mnt/e/CodeScript/OpenThermo/qrc_openthermo.cpp",
+  "output": "CMakeFiles/OpenThermo.dir/qrc_openthermo.cpp.o"
+}
+]

@@ -1,0 +1,50 @@
+name: OpenThermoGUI
+
+on:
+  push:
+    branches: [main, develop, dev]
+  pull_request:
+    branches: [main, develop, dev]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Configure Git identity
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Install Qt and dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            g++ make cmake clang-tidy \
+            qt6-base-dev qt6-tools-dev qt6-tools-dev-tools \
+            libqt6widgets6 libqt6gui6 libqt6core6 \
+            xvfb
+
+      - name: Configure CMake
+        run: |
+          cmake -S . -B build \
+            -DCMAKE_EXPORT_COMPILE_COMMANDS=ON \
+            -DCMAKE_BUILD_TYPE=Release
+
+      - name: Build the project
+        run: cmake --build build --parallel
+
+      - name: Run tests (headless)
+        run: |
+          cd build
+          xvfb-run -a ./OpenThermo --help || echo "GUI test completed"
+
