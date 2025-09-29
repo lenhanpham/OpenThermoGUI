@@ -15,7 +15,7 @@
   <img src="https://img.shields.io/badge/Build-Passing-brightgreen.svg" alt="Build Status">
 </p>
 
-**OpenThermoGUI** is a graphical user interface version of OpenThermo. The GUI version is intent to make OpenThermo user friendly when it runs on Laptop, PC, and Macbook. GUI is underdevelopment and **not ready for use yet**. All terminal functions are working normally.
+**OpenThermoGUI** is a graphical user interface version of OpenThermo. The GUI version is intent on making OpenThermo user friendly when it runs on Laptop, PC, and Macbook. GUI is underdevelopment and **not ready for use yet**. All terminal functions are working normally.
 
 <img src="./docs/GUI.png" title="Graphical user interface" alt="GUI" data-align="center">
 
